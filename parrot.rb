@@ -5,7 +5,7 @@ def parrot (pharse)
 end
 
 
-def parrot (pharse = "Squawk!")
+def parrot (pharse,pharse = "Squawk!")
   puts "The parrot will #{pharse} when spoken to"
   pharse
 end
